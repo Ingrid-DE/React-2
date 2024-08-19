@@ -17,10 +17,10 @@ function App() {
   
   return (
     <div className="container mt-5">
-          <h3>Floreria Rojas</h3>
       <div className="row">
-        <div className="col-1">
+        <div className="col-2">
           <form onSubmit={handleSubmit}>
+      <div class="card-body bg-danger text-white">Floreria Rojas </div>
       <label>Cliente:
       <input
         type="text"
@@ -53,7 +53,7 @@ function App() {
           onChange={handleChange}
       />
       </label>
-      <button className="btn btn-dark btn-block" type="submit">Pedir</button>
+      <button className="btn-success" type="submit">Pedir</button>
     </form>          
         </div>
       </div>
